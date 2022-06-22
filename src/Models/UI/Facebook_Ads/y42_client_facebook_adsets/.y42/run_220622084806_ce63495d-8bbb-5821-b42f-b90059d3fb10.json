@@ -1,0 +1,38 @@
+{
+  "request_id": "220622084806_ce63495d-8bbb-5821-b42f-b90059d3fb10",
+  "status": "pending",
+  "request": {
+    "target_credentials": "9468d841-93fa-4de4-a060-0e5d1f3e1262",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "1928f814-b3c3-47f5-81fd-b9c4ca9f0f9b"
+    },
+    "created_at": "2022-06-22T08:48:06.396195+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/Facebook_Ads/y42_client_facebook_adsets/",
+        "id": "5:d1272fb7-bf27-4846-b117-c64db9b10bde",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_20266744",
+        "commit_sha": "674c34ca09e50e835801810eb30c1a959e5a66b0"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-22T08:48:06.396195+00:00",
+  "_signature": "Thg+f4LYQP7j46RsG9/6CEUfVo2Y0Ns8T+Q1c+LdYKuHvEI5oUSYxZiVyf4Dh5LGJ0vtBaNiiQ8EEMfmepj7Dg=="
+}
