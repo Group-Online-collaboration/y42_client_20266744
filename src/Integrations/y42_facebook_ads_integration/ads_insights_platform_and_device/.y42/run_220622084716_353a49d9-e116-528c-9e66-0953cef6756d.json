@@ -1,0 +1,65 @@
+{
+  "request_id": "220622084716_353a49d9-e116-528c-9e66-0953cef6756d",
+  "status": "pending",
+  "request": {
+    "source_credentials": "c956bad7-c40a-476a-8f55-d76baf7e3f3d",
+    "target_credentials": "9468d841-93fa-4de4-a060-0e5d1f3e1262",
+    "source_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/source.json",
+      "parent_id": "180568416496312",
+      "start_date": "2022-01-01T00:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.y42.com/integrations/facebook/0.0.0/table",
+      "columns": [
+        "account_id",
+        "ad_id",
+        "adset_id",
+        "campaign_id",
+        "campaign_name",
+        "clicks",
+        "cost_per_inline_link_click",
+        "cost_per_inline_post_engagement",
+        "cost_per_unique_click",
+        "cost_per_unique_inline_link_click",
+        "date_start",
+        "frequency",
+        "impressions",
+        "inline_link_clicks",
+        "inline_post_engagement",
+        "reach",
+        "spend",
+        "unique_clicks",
+        "unique_inline_link_clicks",
+        "publisher_platform",
+        "platform_position",
+        "impression_device"
+      ],
+      "import": "ads_insights_platform_and_device"
+    },
+    "created_at": "2022-06-22T08:47:16.391577+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/y42_facebook_ads_integration/ads_insights_platform_and_device/",
+        "id": "5:d1272fb7-bf27-4846-b117-c64db9b10bde",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "25917863",
+        "owner": "Group-Online-collaboration",
+        "repo": "y42_client_20266744",
+        "commit_sha": "6258376bc7f8a8716bc47f37a77251fe8f4490bb"
+      }
+    },
+    "context": {
+      "company_id": 5,
+      "company_slug": "grouponline",
+      "triggered_by_type": "user",
+      "triggered_by_id": "32",
+      "trial": false
+    }
+  },
+  "created_at": "2022-06-22T08:47:16.391577+00:00",
+  "_signature": "wbTRJAtqIdfLpto/9ByEgL23oHfjIRuuNtRO8UmcRK087N84AZ/mz3cqR17i1l4JWx49KkmwoOf+UXuyIbF+Ag=="
+}
